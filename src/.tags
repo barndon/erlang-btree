@@ -1,0 +1,13 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+btree	btree.erl	/^-module(btree).$/;"	m
+btree	btree.erl	/^-record(btree, {tree, func}).$/;"	r
+insert	btree.erl	/^insert(Tree, N, Func) ->$/;"	f	module:btree
+insert	btree.erl	/^insert(TreeRec, N) ->$/;"	f	module:btree
+new	btree.erl	/^new(Func) ->$/;"	f	module:btree
+search	btree.erl	/^search(#btree{tree=T, func=F}, N) ->$/;"	f	module:btree
+search	btree.erl	/^search(Tree, N, Func) ->$/;"	f	module:btree
